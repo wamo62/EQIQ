@@ -17,9 +17,6 @@ namespace EQIQ
 			return new NavigationPage(new HomePage());
 		}
 
-
-
-
 		protected override void OnStart ()
 		{
 			// Handle when your app starts

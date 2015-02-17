@@ -34,9 +34,9 @@ namespace EQIQ
 			};
 
 			// NOTE: use for debugging, not in released app code!
-			var assembly = typeof(HomePage).GetTypeInfo().Assembly;
-			foreach (var res in assembly.GetManifestResourceNames()) 
-				System.Diagnostics.Debug.WriteLine("found resource: " + res);
+//			var assembly = typeof(HomePage).GetTypeInfo().Assembly;
+//			foreach (var res in assembly.GetManifestResourceNames()) 
+//				System.Diagnostics.Debug.WriteLine("found resource: " + res);
 		}
 
 		protected void OnButtonClicked(object sender, EventArgs e)
