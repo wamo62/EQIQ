@@ -10,7 +10,7 @@ namespace EQIQ
 		public HomePage ()
 		{
 			Button page2Btn = new Button {
-				Text = "Page2"			};
+				Text = "5 Steps to Perfect Presentations"			};
 			page2Btn.Clicked += OnButtonClicked;
 		
 			Content = new StackLayout { 
@@ -41,7 +41,7 @@ namespace EQIQ
 
 		protected void OnButtonClicked(object sender, EventArgs e)
 		{
-			Navigation.PushAsync(new Page2(), false);
+			Navigation.PushAsync(new Steps(), false);
 		}
 	}
 }

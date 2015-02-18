@@ -9,7 +9,7 @@ namespace EQIQ
 		public Page2 ()
 		{
 			Button homeBtn = new Button {
-				Text = " Home "
+				Text = " 5 Steps "
 			};
 			homeBtn.Clicked += OnButtonClicked;
 
@@ -34,7 +34,8 @@ namespace EQIQ
 
 		protected void OnButtonClicked(object sender, EventArgs e)
 		{
-			Navigation.PopAsync();
+			//Navigation.PopAsync();
+			Navigation.PushAsync(new Steps(), false);
 		}
 	}
 }

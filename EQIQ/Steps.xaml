@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="EQIQ.Steps">
+	
+	<ContentPage.Padding>
+	    <OnPlatform x:TypeArguments="Thickness"
+	                iOS="0, 20, 0, 0" />
+	</ContentPage.Padding>
+
+
+	<ContentPage.Content>
+
+		<StackLayout VerticalOptions="LayoutOptions.Center">
+			<Label XAlign = "Center" FontSize="24" TextColor="Yellow" FontAttributes="Bold">
+5 Steps to Perfect Presentations
+			</Label>
+
+			<Label XAlign = "Center" FontSize="20" TextColor="White">
+Welcome!
+			</Label>
+
+			<Label FontSize="20" TextColor="White" HorizontalOptions="StartAndExpand"> 
+   We've all been there: the presenter is late or unprepared, or he/she is tinkering
+   with the display hardware trying to get the computer output to appear.
+   It is frustrating for the audience as well as the presenter and it can be
+   embarrassing for the presenter as well.
+
+   This app was written to share with you five simple steps which will help to avoid
+   that frustration and embarrassment, and actually lead to a great presentation
+   of which you can be proud! This is just one of the apps we have created
+   to assist you in achieving presentation perfection.
+
+   Let's begin!  Click any of the buttons below to proceed.
+			</Label>
+			<Button Text="Step One - Arrive Early" Clicked="OnStep1Clicked" BackgroundColor="Navy" TextColor="Yellow"/>
+			<Button Text="Step Two - Familiarization" Clicked="OnStep2Clicked" BackgroundColor="Navy" TextColor="Yellow" />
+			<Button Text="Step Three - Preliminary Tests" Clicked="OnStep3Clicked" BackgroundColor="Navy" TextColor="Yellow" />
+			<Button Text="Step Four - Presenter Location" Clicked="OnStep4Clicked" BackgroundColor="Navy" TextColor="Yellow" />
+			<Button Text="Step Five - Dry Run" Clicked="OnStep5Clicked" BackgroundColor="Navy" TextColor="Yellow" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
